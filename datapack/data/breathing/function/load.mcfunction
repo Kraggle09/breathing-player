@@ -1,3 +1,4 @@
-scoreboard objectives add crouchDetect minecraft.custom:minecraft.sneak_time "crouchDetect"
-data modify storage breathing time set value 50
-function breathing:startbreath
+scoreboard objectives add crouchDetect minecraft.custom:minecraft.sneak_time
+scoreboard objectives add sprintDetect minecraft.custom:minecraft.sprint_one_cm
+scoreboard objectives add timeSinceBreath dummy
+scoreboard objectives add timeToBreath dummy
